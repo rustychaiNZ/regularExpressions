@@ -20,9 +20,61 @@
 
 		<!-- Body content of the website -->
 		<div class="container-lg bg-white">
+			<!-- Title container -->
 			<div class="row">
 				<div class="col-12">
-					<h2>Hello World</h2>
+					<h2>Please Fill out the Form</h2>
+				</div>
+			</div>
+			<!-- Form details container -->
+			<div class="row">
+				<div class="col-md-8 mr-auto ml-auto">
+					<!-- User login creation -->
+					<div class="row form">
+						<!-- User name -->
+						<label for="userName">User Name:</label>
+						<input type="text" id="userName" class="form-control" placeholder="Enter a username">
+
+						<!-- User's password -->
+						<label for="userPassWord">Password:</label>
+						<input type="password" id="userPassword" class="form-control" placeholder="Enter a password 6+ charecters">
+
+						<!-- Confirm user's password -->
+						<label for="confirmPassword">Confirm Password:</label>
+						<input type="password" id="confirmPassWord" class="form-control" placeholder="Confirm password of 6+ charecters">
+					</div>
+
+					<!-- Temporary login button -->
+					<div class="row">
+						<button class="btn btn-lg btn-warning float-right form-btn" id="registerBtn">Register</button>
+					</div>
+
+					<!-- Age input -->
+					<div class="row">
+						<label for="age" class="float-left">Age:</label>
+						<input type="number" name="age" id="age" class="form-control float-left" placeholder="Age of person submitting form">
+					</div>
+
+					<!-- Verifying postal code input -->
+					<div class="row">
+						<label for="postaCode" class="float-left">Postal Code:</label>
+						<input type="text" name="postaCode" id="postal" class="form-control float-left" placeholder="Enter your postal code">
+					</div>
+
+					<!-- Verifying phone number input -->
+					<div class="row">
+						<label for="phoneNumber" class="float-left">Phone Number:</label>
+						<input type="text" name="phoneNumber" id="phone" class="form-control float-left" placeholder="+xx(xx)xxx xxxx">
+					</div>
+					
+					<!-- Submits what the user has inputted -->
+					<button class="btn btn-lg btn-warning float-right form-btn" id="formSubmit">Create Account</button>
+				</div>
+			</div>
+			<!-- Form output -->
+			<div class="row">
+				<div class="col-8 mr-auto ml-auto" id="formOutput">
+					
 				</div>
 			</div>
 		</div>

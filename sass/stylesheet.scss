@@ -1,7 +1,12 @@
+@import 'form';
 .jumbotron{
 	margin-bottom: 0;
+	border-radius: 0;
 }
 .container-lg{
 	margin-top: 0;
 	min-height: 45vh;
+}
+.margin-auto{
+	margin: auto;
 }

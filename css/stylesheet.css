@@ -1,8 +1,21 @@
+label {
+  font-size: 1.2em; }
+
+.form {
+  margin-bottom: 15px; }
+
+.form-btn {
+  margin-top: 10px; }
+
 .jumbotron {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  border-radius: 0; }
 
 .container-lg {
   margin-top: 0;
   min-height: 45vh; }
+
+.margin-auto {
+  margin: auto; }
 
 /*# sourceMappingURL=stylesheet.css.map */
